@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Proje - Randevu Sistemi</title>
+<link href="css/wstyle.css" rel="stylesheet" type="text/css" />
+<link rel='stylesheet' href='th/cupertino/jquery-ui.min.css' />
+<link href='th/fullcalendar.css' rel='stylesheet' />
+<link href='th/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='th/moment.min.js'></script>
+<script src='th/jquery.min.js'></script>
+<script src='th/fullcalendar.min.js'></script>
+<script>
+
+	$(document).ready(function() {
+
+		$('#calendar').fullCalendar({
+			theme: true,
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			defaultDate: '2016-05-12',
+			editable: true,
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+				{
+					title: 'All Day Event',
+					start: '2016-05-01'
+				},
+				{
+					title: 'Long Event',
+					start: '2016-05-07',
+					end: '2016-05-10'
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: '2016-05-09T16:00:00'
+				},
+				{
+					id: 999,
+					title: 'Repeating Event',
+					start: '2016-05-16T16:00:00'
+				},
+				{
+					title: 'Conference',
+					start: '2016-05-11',
+					end: '2016-05-13'
+				},
+				{
+					title: 'Meeting',
+					start: '2016-05-12T10:30:00',
+					end: '2016-05-12T12:30:00'
+				},
+				{
+					title: 'Lunch',
+					start: '2016-05-12T12:00:00'
+				},
+				{
+					title: 'Meeting',
+					start: '2016-05-12T14:30:00'
+				},
+				{
+					title: 'Happy Hour',
+					start: '2016-05-12T17:30:00'
+				},
+				{
+					title: 'Dinner',
+					start: '2016-05-12T20:00:00'
+				},
+				{
+					title: 'Birthday Party',
+					start: '2016-05-13T07:00:00'
+				},
+				{
+					title: 'Click for Google',
+					url: 'http://google.com/',
+					start: '2016-05-28'
+				}
+			]
+		});
+		
+	});
+
+</script>
+</head>
+
+<body>
+<!-- Üst Yer -->
+<div id="ust">
+  <div class="ust">
+    <div class="avatar">
+      <p>Avatar</p>
+    </div>
+    <div class="hasta_isim">Muhammet Fatih Özkan</div>
+    <div class="logo">Proje - Randevu Sistemi</div>
+  </div>
+</div>
+<!-- Üst Yer Bitiş -->
+<div id="ran_yer">
+  <div class="ran_yer">
+    <div class="ran_menu">
+      <ul class="menu">
+        <a href="index.html"><li>Randevular</li></a>
+        <a href="randevual.html"><li>Randevu Al</li></a>
+        <a href="ayarlar.html"><li>Ayarlar</li></a>
+        <a href="cikis.html"><li>Çıkış</li></a>
+      </ul>
+    </div>
+    <div class="ran_tarih">
+	<style>
+
+	#calendar {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+</style>
+      <div id='calendar'></div>
+    </div>
+    <div class="ran_sag">Bu Ne Anlamadım</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

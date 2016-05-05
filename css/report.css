@@ -1,0 +1,297 @@
+#head {
+    background-color: rgb(241,241,246);
+    color: rgba(100,100,100,1.00);
+    font-weight: 400;
+    font-size: 15pt;
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+}
+
+#head:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#headSpace {
+    background-color: rgb(241,241,246);
+    color: rgba(109,109,114,1.00);
+    height: 18px;
+}
+
+#headSpace:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#headTitle {
+    background-color: rgb(241,241,246);
+    color: rgba(0,0,0,1.00);
+    font-weight: 400;
+    font-size: 18pt;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+#headSubsReport {
+    background-color: rgb(241,241,246);
+    color: rgba(0,0,0,1.00);
+    font-weight: 400;
+    font-size: 12pt;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+#previousMultiHeadContainer {
+    background-color: rgb(241,241,246);
+    border-top: 1px solid rgba(200,199,204,1.00);
+    border-bottom: 1px solid rgba(200,199,204,1.00);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#currentMultiHeadContainer {
+    background-color: rgb(255,255,255);
+    border-top: 1px solid rgba(200,199,204,1.00);
+    border-bottom: 1px solid rgba(200,199,204,1.00);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#multiHeadLine {
+    border-bottom: 1px solid rgba(200,199,204,1.00);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+#multiHeadLastLine {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+#multiHeadKey {
+    color: rgba(0,0,0,1.00);
+    height: auto;
+    width: auto;
+    float: left;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#multiHeadSubsReportKey {
+    color: rgba(0,0,0,1.00);
+    height: auto;
+    width: auto;
+    float: left;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+#multiHeadValue {
+    color: rgba(120,120,122,1.00);
+    height: auto;
+    width: auto;
+    float: right;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+
+#multiHeadContainer:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#multiHeadLine:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#multiHeadLastLine:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#content {
+    background-color: rgb(241,241,246);
+    color: rgba(109,109,114,1.00);
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+#content:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#contentInfo {
+    height: auto;
+    width: auto;
+    color: rgba(109,109,114,1.00);
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+#contentKey {
+    height: auto;
+    width: auto;
+    float: left;
+    color: rgba(109,109,114,1.00);
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+#contentValue {
+    height: auto;
+    width: auto;
+    float: right;
+    color: rgba(109,109,114,1.00);
+    font-weight: 400;
+    font-size: 11pt;
+}
+
+#leftAlign {
+    height: auto;
+    width: auto;
+    float: left;
+    font-size: 14pt;
+}
+
+#rigthAlign {
+    height: auto;
+    width: auto;
+    float: right;
+    font-size: 14pt;
+}
+
+#centerAlign {
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#subtitleContainer {
+    background-color: rgb(241,241,246);
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+
+#subtitleContainer:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#subtitle {
+    background-color: rgb(241,241,246);
+    color: rgb(200,200,200);
+    float: right;
+    font-weight: 400;
+    font-size: 9pt;
+}
+
+#buttonContainer {
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+    border-top: 1px solid rgba(200,199,204,1.00);
+    border-bottom: 1px solid rgba(200,199,204,1.00);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+#button {
+    color: rgba(0,122,255,1.00);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#arrowLeft {
+    color: rgba(120,120,122,1.00);
+    float: left;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#arrowRight {
+    color: rgba(120,120,122,1.00);
+    float: right;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#buttonContainer:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+body, td, th {
+    font-family: "Helvetica";
+}
